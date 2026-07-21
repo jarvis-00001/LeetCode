@@ -1,6 +1,6 @@
 # 🔴 32. Longest Valid Parentheses
 
-![Difficulty](https://img.shields.io/badge/Hard-ff375f?style=for-the-badge) ![Language](https://img.shields.io/badge/Java-333333?style=for-the-badge) ![Version](https://img.shields.io/badge/v2-6366f1?style=for-the-badge) [![LeetCode](https://img.shields.io/badge/View_on_LeetCode-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/longest-valid-parentheses/)
+![Difficulty](https://img.shields.io/badge/Hard-ff375f?style=for-the-badge) ![Language](https://img.shields.io/badge/Java-333333?style=for-the-badge) ![Version](https://img.shields.io/badge/v3-6366f1?style=for-the-badge) [![LeetCode](https://img.shields.io/badge/View_on_LeetCode-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/longest-valid-parentheses/)
 
 ---
 
@@ -45,7 +45,7 @@ s[i] is '(', or ')'.
 | **Difficulty** | 🔴 Hard |
 | **Language** | Java |
 | **Tags** | `String`  `Dynamic Programming`  `Stack` |
-| **Version** | v2 |
+| **Version** | v3 |
 | **Solved On** | 2026-07-21 |
 
 ## 📊 Complexity Analysis
