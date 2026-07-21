@@ -1,29 +1,30 @@
 # 🏆 LeetCode Solutions
-![Total](https://img.shields.io/badge/Total_Solved-2-6366f1?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total_Solved-3-6366f1?style=for-the-badge)
 ![Easy](https://img.shields.io/badge/Easy-0-00b8a3?style=for-the-badge)
 ![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge)
-![Hard](https://img.shields.io/badge/Hard-2-ff375f?style=for-the-badge)
+![Hard](https://img.shields.io/badge/Hard-3-ff375f?style=for-the-badge)
 🔥 **1** day streak
 ## 📈 Progress
 ```
 🟢 Easy   ░░░░░░░░░░░░░░░░░░░░ 0 (0%)
 🟡 Medium ░░░░░░░░░░░░░░░░░░░░ 0 (0%)
-🔴 Hard   ████████████████████ 2 (100%)
+🔴 Hard   ████████████████████ 3 (100%)
 ```
 ## 🗂️ By Language
 | Language | Problems | Share |
 |----------|----------|-------|
-| C++ | 1 | 50% |
-| Java | 1 | 50% |
+| Java | 2 | 67% |
+| C++ | 1 | 33% |
 ## 🏷️ Top Topics
 | Topic | Count |
 |-------|-------|
-| Dynamic Programming | 2 |
-| Stack | 2 |
-| String | 2 |
+| Dynamic Programming | 3 |
+| Stack | 3 |
+| String | 3 |
 ## 📝 Recent Solves
 | | Problem | Difficulty | Language | Date |
 |---|---------|-----------|----------|------|
+| 🔴 | longest-valid-parentheses | Hard | Java | 2026-07-21 |
 | 🔴 | longest-valid-parentheses | Hard | Java | 2026-07-21 |
 | 🔴 | longest-valid-parentheses | Hard | C++ | 2026-07-21 |
 ---
