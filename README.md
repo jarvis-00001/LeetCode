@@ -1,29 +1,33 @@
 # 🏆 LeetCode Solutions
-![Total](https://img.shields.io/badge/Total_Solved-3-6366f1?style=for-the-badge)
+![Total](https://img.shields.io/badge/Total_Solved-4-6366f1?style=for-the-badge)
 ![Easy](https://img.shields.io/badge/Easy-0-00b8a3?style=for-the-badge)
-![Medium](https://img.shields.io/badge/Medium-0-ffc01e?style=for-the-badge)
+![Medium](https://img.shields.io/badge/Medium-1-ffc01e?style=for-the-badge)
 ![Hard](https://img.shields.io/badge/Hard-3-ff375f?style=for-the-badge)
 🔥 **1** day streak
 ## 📈 Progress
 ```
 🟢 Easy   ░░░░░░░░░░░░░░░░░░░░ 0 (0%)
-🟡 Medium ░░░░░░░░░░░░░░░░░░░░ 0 (0%)
-🔴 Hard   ████████████████████ 3 (100%)
+🟡 Medium █████░░░░░░░░░░░░░░░ 1 (25%)
+🔴 Hard   ███████████████░░░░░ 3 (75%)
 ```
 ## 🗂️ By Language
 | Language | Problems | Share |
 |----------|----------|-------|
-| Java | 2 | 67% |
-| C++ | 1 | 33% |
+| Java | 3 | 75% |
+| C++ | 1 | 25% |
 ## 🏷️ Top Topics
 | Topic | Count |
 |-------|-------|
 | Dynamic Programming | 3 |
 | Stack | 3 |
 | String | 3 |
+| Array | 1 |
+| Sorting | 1 |
+| Two Pointers | 1 |
 ## 📝 Recent Solves
 | | Problem | Difficulty | Language | Date |
 |---|---------|-----------|----------|------|
+| 🟡 | 3sum | Medium | Java | 2026-07-21 |
 | 🔴 | longest-valid-parentheses | Hard | Java | 2026-07-21 |
 | 🔴 | longest-valid-parentheses | Hard | Java | 2026-07-21 |
 | 🔴 | longest-valid-parentheses | Hard | C++ | 2026-07-21 |
