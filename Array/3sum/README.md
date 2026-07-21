@@ -1,6 +1,6 @@
 # 🟡 15. 3Sum
 
-![Difficulty](https://img.shields.io/badge/Medium-ffc01e?style=for-the-badge) ![Language](https://img.shields.io/badge/Java-333333?style=for-the-badge) ![Version](https://img.shields.io/badge/v1-6366f1?style=for-the-badge) [![LeetCode](https://img.shields.io/badge/View_on_LeetCode-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/3sum/)
+![Difficulty](https://img.shields.io/badge/Medium-ffc01e?style=for-the-badge) ![Language](https://img.shields.io/badge/Java-333333?style=for-the-badge) ![Version](https://img.shields.io/badge/v2-6366f1?style=for-the-badge) [![LeetCode](https://img.shields.io/badge/View_on_LeetCode-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/3sum/)
 
 ---
 
@@ -11,7 +11,6 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 Notice that the solution set must not contain duplicate triplets.
 
  
-
 Example 1:
 
 Input: nums = [-1,0,1,2,-1,-4]
@@ -39,11 +38,11 @@ Explanation: The only possible triplet sums up to 0.
 
 
  
-
 Constraints:
 
-3 <= nums.length <= 3000
--105 <= nums[i] <= 105
+
+	3 <= nums.length <= 3000
+	-105 <= nums[i] <= 105
 
 ---
 
@@ -53,7 +52,7 @@ Constraints:
 | **Difficulty** | 🟡 Medium |
 | **Language** | Java |
 | **Tags** | `Array`  `Two Pointers`  `Sorting` |
-| **Version** | v1 |
+| **Version** | v2 |
 | **Solved On** | 2026-07-21 |
 
 ## 📊 Complexity Analysis
