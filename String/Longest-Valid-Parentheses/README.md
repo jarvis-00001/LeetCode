@@ -1,6 +1,6 @@
 # 🔴 32. Longest Valid Parentheses
 
-![Difficulty](https://img.shields.io/badge/Hard-ff375f?style=for-the-badge) ![Language](https://img.shields.io/badge/C%2B%2B-333333?style=for-the-badge) ![Version](https://img.shields.io/badge/v1-6366f1?style=for-the-badge) [![LeetCode](https://img.shields.io/badge/View_on_LeetCode-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/longest-valid-parentheses/)
+![Difficulty](https://img.shields.io/badge/Hard-ff375f?style=for-the-badge) ![Language](https://img.shields.io/badge/Java-333333?style=for-the-badge) ![Version](https://img.shields.io/badge/v2-6366f1?style=for-the-badge) [![LeetCode](https://img.shields.io/badge/View_on_LeetCode-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/problems/longest-valid-parentheses/)
 
 ---
 
@@ -9,6 +9,7 @@
 Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring.
 
  
+
 Example 1:
 
 Input: s = "(()"
@@ -30,11 +31,11 @@ Output: 0
 
 
  
+
 Constraints:
 
-
-	0 <= s.length <= 3 * 104
-	s[i] is '(', or ')'.
+0 <= s.length <= 3 * 104
+s[i] is '(', or ')'.
 
 ---
 
@@ -42,28 +43,53 @@ Constraints:
 | | |
 |---|---|
 | **Difficulty** | 🔴 Hard |
-| **Language** | C++ |
+| **Language** | Java |
 | **Tags** | `String`  `Dynamic Programming`  `Stack` |
-| **Version** | v1 |
+| **Version** | v2 |
 | **Solved On** | 2026-07-21 |
 
 ## 📊 Complexity Analysis
 | Measure | Complexity | Details |
 |---------|-----------|---------|
-| ⏱️ **Time** | `O(1)` | No loops, recursion, or iterative patterns detected |
-| 💾 **Space** | `O(n)` | HashMap/HashSet/dictionary allocation detected |
+| ⏱️ **Time** | `O(n)` | Single loop detected |
+| 💾 **Space** | `O(1)` | No significant data structure allocations detected |
 
 ## 🎯 Approach
-_Review the solution for detailed approach._
+- **Linear Scan** — iterates through the input once
 
 ## 💻 Solution
-```cpp
+```java
 class Solution {
-public:
-    int longestValidParentheses(string s) {
-        
+    public int longestValidParentheses(String s) {
+        int left = 0, right = 0, maxlength = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                left++;
+            } else {
+                right++;
+            }
+            if (left == right) {
+                maxlength = Math.max(maxlength, 2 * right);
+            } else if (right > left) {
+                left = right = 0;
+            }
+        }
+        left = right = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if (s.charAt(i) == '(') {
+                left++;
+            } else {
+                right++;
+            }
+            if (left == right) {
+                maxlength = Math.max(maxlength, 2 * left);
+            } else if (left > right) {
+                left = right = 0;
+            }
+        }
+        return maxlength;
     }
-};
+}
 ```
 
 ---
